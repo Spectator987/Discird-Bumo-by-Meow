@@ -40,7 +40,7 @@ function scheduleNextBump() {
 async function sendBump() {
   try {
     const channel = await client.channels.fetch(process.env.CHANNEL_ID);
-    await channel.send('/bump');
+    await channel.send('@defnotalt6024 @goku_omey @stomachacid30 HUMP IT NIGGAS!!!');
     console.log(`Bump sent at ${new Date().toLocaleString()}`);
   } catch (error) {
     console.error('Bump failed:', error);
